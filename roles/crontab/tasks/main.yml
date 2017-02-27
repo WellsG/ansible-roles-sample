@@ -1,0 +1,4 @@
+---
+
+- name: test cron
+  cron: user=wguo hour=1 minute=1 name="cron anisble" job="<cmd>"
